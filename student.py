@@ -10,3 +10,7 @@ def show_students():
 def delete_student(name):
     if name in students:
         students.remove(name)        
+
+def search_student(name):
+    if name in students:
+        print(f"{name} found")       
