@@ -13,4 +13,6 @@ def delete_student(name):
 
 def search_student(name):
     if name in students:
-        print(f"{name} found")       
+        print(f"{name} found")
+    else:
+        print("Student not found")    
