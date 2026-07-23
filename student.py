@@ -9,4 +9,6 @@ def show_students():
 
 def delete_student(name):
     if name in students:
-        students.remove(name)        
+        students.remove(name)      
+
+print("No student found")          
